@@ -64,3 +64,124 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header{
+	position: absolute;
+	display: block;	
+}
+
+header nav a{
+	text-decoration: none;
+	color:#D3D3D3;
+	display:inline-block;
+	margin: 20px;
+	width: 60px;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.logo{
+	/* great idea */
+	display: inline-block;
+	position: absolute;
+	right:40px;
+	top: 20px;	
+}
+
+.code-picture{
+	/* position: absolute;  */
+	display:inline-block;
+	
+}
+
+
+.info-content{
+	/* This property will style from features to vision */
+	position: relative;
+}
+
+
+
+
+/* Styling Innovation of demand/home */
+
+.home{
+	display:block;
+	position: relative;
+	height:650px;
+	margin:10px;
+	border-bottom:2px solid black;
+} 
+
+.code-picture{
+	display: block;
+	position: absolute;
+	right:20px;
+	top:10px;
+	margin: 150px 0;
+
+}
+.get-button{
+	color:black;
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 2px 30px;
+	position: absolute;
+	margin-top: 480px;
+	left:240px;
+}
+.big-title{
+	text-align: center;
+	position: absolute;
+	font-size: 90px;
+	top: 200px;
+	left:90px;
+	width:35%;
+}
+.split-title{
+	position: relative;
+	left:0px;
+}
+
+
+/* styling the middle */
+.middle-img{
+	width:100%;
+}
+
+.first{
+	display: inline-block;
+	width:45%;
+	margin:25px 20px;
+}
+
+p{
+	display: inline-block;	
+}
+
+.second{
+	display: inline-block;
+	width:25%;
+	margin:25px;
+}
+
+section.info-content{
+	border-bottom: 2px solid black;
+}
+
+/* styling the footer */
+
+
+.contact-us{
+	margin: 35px 0 10px 0;
+}
+.copy{
+	/* copryright */
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+body{
+	/* so nothing is on the edge */
+	margin:50px;
+}
