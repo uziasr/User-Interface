@@ -66,26 +66,38 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 header{
-	position: absolute;
+	position: relative;
 	display: block;	
 }
 
+nav{
+	position:relative;
+	background-color: #01a2ff;
+}
+
 header nav a{
+	box-sizing: border-box;
 	text-decoration: none;
 	color:#D3D3D3;
 	display:inline-block;
-	margin: 20px;
-	width: 60px;
-	padding: 15px;
+	margin: 20px 5px 0px 5px;
+	width: 9%;
+	padding: 10px;
 	font-weight: bold;
+	border: 1px solid black;
+	text-align:center;
+}
+
+header nav a:hover{
+	background-color: black;
 }
 
 .logo{
 	/* great idea */
 	display: inline-block;
 	position: absolute;
-	right:40px;
-	top: 20px;	
+	right:200px;
+	top: 70px;	
 }
 
 .code-picture{
@@ -119,7 +131,6 @@ header nav a{
 	right:20px;
 	top:10px;
 	margin: 150px 0;
-
 }
 .get-button{
 	color:black;
@@ -130,6 +141,10 @@ header nav a{
 	margin-top: 480px;
 	left:240px;
 }
+.get-button:hover{
+	background-color:blue;
+}
+
 .big-title{
 	text-align: center;
 	position: absolute;
@@ -160,8 +175,9 @@ p{
 }
 
 .second{
+	/* services to vision */
 	display: inline-block;
-	width:25%;
+	width:28%;
 	margin:25px;
 }
 
@@ -184,4 +200,9 @@ section.info-content{
 body{
 	/* so nothing is on the edge */
 	margin:50px;
+}
+
+.email{
+	text-decoration: none;
+	
 }
